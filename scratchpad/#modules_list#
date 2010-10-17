@@ -1,0 +1,30 @@
+
+hadoop:
+Net::Amazon::HadoopEC2::S3fs
+
+cassandra:
+Net::Cassandra::Easy, Net::Cassandra
+
+simpleDB:
+SimpleDB::Class, SimpleDB::Client, Amazon::SimpleDB, Metabase::Index::SimpleDB
+
+couchDB: spore, AnyEvent::CouchDB, DB::CouchDB, Net::CouchDb, POE::Component::Client::CouchDB, CouchDB::View, Store::CouchDB, CouchDB::Client
+
+mongodb:
+MongoDB, 
+
+KiokuDB:
+KiokuDB
+
+riak:
+AnyEvent::Riak, Net::Riak, 
+
+redis:
+Redis, CHI::Driver::Redis, Danga::Socket::Redis
+
+GT.M:
+Db::GTM
+
+berkeley DB:
+BerkeleyDB
+

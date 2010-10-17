@@ -28,3 +28,14 @@ Db::GTM
 berkeley DB:
 BerkeleyDB
 
+memcachedb:
+AnyEvent::Memcached
+
+Faircom:
+Db::Ctree
+
+Voldemort:
+Voldemort
+
+Allegrograph:
+RDF::AllegroGraph
